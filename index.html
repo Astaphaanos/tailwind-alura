@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá Tailwind!</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!--* Tailwind com CDN-->
+
+    <!--! Todas as propriedades do tailwind está na documentação dele. -->
+</head>
+
+<body class="bg-gradient-to-r from-purple-400 to-blue-600"> <!--? O gradiente vai começar no purple e terminar no azul-->
+<!--! As cores vão de 50 ao 900. Quando mais proximo de 50 mais claro fica, quanto mais proximo de 900 mais escuro fica-->
+
+    <main class="bg-white flex flex-col lg:flex-row justify-center items-center w-4/5 mx-auto my-40 p-12 shadow-2xl opacity-50">
+        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+        <h1 class="text-4xl lg:text-6xl font-black text-center">Olá Tailwind CSS!</h1>
+        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+    </main>
+
+</body>
+
+</html>
+
+<!--! No tailwind faz primeiro o mobile first e depois outras telas-->
+<!-- Já tem Breakpoint prefix:-->
